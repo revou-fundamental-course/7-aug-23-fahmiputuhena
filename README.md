@@ -15,10 +15,10 @@ Cara Menggunakan
 2. Isi panjang alas dan tinggi segitiga pada formulir yang disediakan.
 3. Klik tombol "Hitung" untuk melihat hasil perhitungan luas dan keliling segitiga.
 
-Informasi
+Informasi : 
 Aplikasi adalah Tugas Mini Coding Project dibuat untuk memenuhi kelulusan di Fundamental Course Software Engineering, RevoU. Dengan aplikasi ini, saya berharap dapat membantu Anda memahami konsep perhitungan luas dan keliling segitiga dengan lebih baik.
 
-Kontak
+Kontak :
 Jika Anda memiliki pertanyaan, saran, atau masukan, jangan ragu untuk menghubungi saya melalui email.
 Terima kasih telah menggunakan Aplikasi Kalkulator Luas dan Keliling Segitiga ini! saya berharap ini bermanfaat. Selamat menghitung!
 
