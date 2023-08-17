@@ -16,7 +16,7 @@ Cara Menggunakan
 3. Klik tombol "Hitung" untuk melihat hasil perhitungan luas dan keliling segitiga.
 
 Informasi : 
-Aplikasi adalah Tugas Mini Coding Project dibuat untuk memenuhi kelulusan di Fundamental Course Software Engineering, RevoU. Dengan aplikasi ini, saya berharap dapat membantu Anda memahami konsep perhitungan luas dan keliling segitiga dengan lebih baik.
+Aplikasi adalah Tugas Mini Coding Project dibuat untuk memenuhi kelulusan di Fundamental Course Software Engineering 7-Aug-23, RevoU. Dengan aplikasi ini, saya berharap dapat membantu Anda memahami konsep perhitungan luas dan keliling segitiga dengan lebih mudah.
 
 Kontak :
 Jika Anda memiliki pertanyaan, saran, atau masukan, jangan ragu untuk menghubungi saya melalui email.
