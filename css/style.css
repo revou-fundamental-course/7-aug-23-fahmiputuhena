@@ -1,0 +1,118 @@
+/* Style untuk body */
+body {
+    background-color: #f5f7ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    display: flex; /* Membuat container body menjadi flexbox */
+    justify-content: center; /* Pusatkan isi halaman secara horizontal */
+}
+
+/* Style untuk header */
+header {
+    background-color: #4e6dca;
+    color: white;
+    text-align: left;
+    margin: 30px 50px; /* Atur margin dengan pendekatan shorthand */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; /* Buat header mengambil seluruh lebar */
+}
+
+/* Style untuk galeri gambar */
+div.gallery {
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* CSS style untuk galeri gambar dan tabel */
+.gallery, .table {
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 20px;
+}
+
+/* Style untuk container form */
+.form-container {
+    width: 45%; 
+    margin: 20px; 
+    float: left; 
+}
+
+/* Membersihkan floating */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style untuk bagian input */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    color: #26527d;
+}
+
+label {
+    display: block;
+    margin: 20px 0; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3b5dc4;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #ffb84d;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #ffaf1a;
+}
+
+button:active {
+    transform: translateY(1px);
+    background-color: #ffeeb3;
+    color: #ffaf1a;
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}

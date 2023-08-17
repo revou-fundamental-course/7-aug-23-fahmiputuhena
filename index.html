@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KalTik | Kalkulator Segitiga</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>KalTik : Eksplorasi Luas dan Keliling Segitiga dengan Lebih Mudah.</h1>
+        <p>Halo! Selamat datang di KalTik - Kalkulator Segitiga.
+            <br>sebuah web sederhana untuk membantu anda menghitung nilai luas dan keliling 
+            <br>dari bentuk Segitiga dalam Sekejap.</p>
+
+    <!-- Galeri Gambar -->
+    <div class="gallery">
+        <a target="_blank" href="assets/LuasSegitiga.png">
+            <img src="assets/LuasSegitiga.png" alt="Cinque Terre" width="600" height="400"></a>
+        <div class="desc">Gambar Luas dan Keliling Segitiga</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="assets/RumusLuasSegitiga.png">
+            <img src="assets/RumusLuasSegitiga.png" alt="Cinque Terre" width="600" height="400"></a>
+        <div class="desc">Rumus </br> Luas Segitiga</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="assets/RumusKelilingSegitiga.png">
+            <img src="assets/RumusKelilingSegitiga.png" alt="Cinque Terre" width="600" height="400"></a>
+        <div class="desc">Rumus </br> Keliling Segitiga</div>
+    </div>
+    </header>
+    
+    
+    <!-- Form untuk Kalkulator Luas -->
+    <div class="form-container">
+        <h3>Luas Segitiga</h3>
+        <div class="input-container">
+            <label for="base">Alas :</label>
+            <input type="number" id="alas" placeholder="isi nilai alas">
+        </div>
+        <div class="input-container">
+            <label for="height">Tinggi :</label>
+            <input type="number" id="tinggi" placeholder="isi nilai tinggi">
+        </div>
+        <button onclick="menghitungLuas()">Hitung Luas</button>
+        <button onclick="resetLuasForm()">Reset</button>
+        <div class="result">
+            <p>Hasil Luas : <span id="luasHasil">-</span></p>
+        </div>
+    </div>
+
+    <!-- Form untuk Kalkulator Keliling -->
+    <div class="form-container">
+        <h3>Keliling Segitiga</h3>
+        <div class="input-container">
+            <label for="side1">Sisi 1 :</label>
+            <input type="number" id="sisi1" placeholder="Isi nilai sisi 1">
+        </div>
+        <div class="input-container">
+            <label for="side2">Sisi 2 :</label>
+            <input type="number" id="sisi2" placeholder="Isi nilai sisi 2">
+        </div>
+        <div class="input-container">
+            <label for="side3">Sisi 3 :</label>
+            <input type="number" id="sisi3" placeholder="Isi nilai sisi 3">
+        </div>
+        <button onclick="menghitungKeliling()">Hitung Keliling</button>
+        <button onclick="resetKelilingForm()">Reset</button>
+        <div class="result">
+            <p>Hasil Keliling : <span id="kelilingHasil">-</span></p>
+        </div>
+    </div>
+    
+    <!-- Script JavaScript -->
+    <script src="js/script.js"></script>
+    
+    <!--Website KalTik sederhana ini dibuat oleh Fahmi Putuhena-->
+</body>
+</html>
